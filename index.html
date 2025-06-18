@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Leo Aventura Escolar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="start-screen" class="overlay">
+    <h1>Leo Aventura Escolar</h1>
+    <p>Creado por <strong>NeonWave Games</strong></p>
+    <p><u>Controles:</u><br>
+      - Mover a la derecha: D<br>
+      - Saltar: ESPACIO<br>
+      - Elegir respuesta: A (1), B (2), C (3)</p>
+    <button id="start-button">Iniciar Juego</button>
+  </div>
+  <audio id="bg-music" loop autoplay>
+    <source src="assets/music.mp3" type="audio/mpeg">
+    Tu navegador no soporta audio.
+  </audio>
+  <canvas id="gameCanvas" width="800" height="400"></canvas>
+  <script src="main.js"></script>
+</body>
+</html>
